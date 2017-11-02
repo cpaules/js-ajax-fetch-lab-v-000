@@ -8,6 +8,8 @@ function createIssue() {
 }
 
 function showResults(json) {
+  const repo = 'learn-co-curriculum/javascript-fetch-lab'
+  $('#results').append(`<h3>Forked Successfully!</h3><a href="https://api.github.com/repos/${repo}/forks"> ${repo}</a>`)
 }
 
 function forkRepo() {

@@ -15,7 +15,7 @@ function forkRepo() {
   //use fetch to fork it!
   fetch(repo)
   .then(resp => resp.json())
-  .then(json => console.log(json));
+  //.then(json => console.log(json));
 }
 
 function getToken() {

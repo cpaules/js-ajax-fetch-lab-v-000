@@ -1,5 +1,5 @@
 function getIssues(){
-  const token= getToken()
+  const token = getToken()
   fetch(`https://api.github.com/repos/cpaules/javascript-fetch-lab/issues`, {
     method: 'get',
     headers: {

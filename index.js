@@ -10,7 +10,7 @@ function getIssues(){
 
 function showIssues(json) {
   let theIssues = ""
-  for (var i = 0; i < json.length; i++) {
+  for (let i = 0; i < json.length; i++) {
     theIssues = theIssues+` title: ${json[i].title} body: ${json[i].body}`
   }
   $("#issues").append(theIssues)
